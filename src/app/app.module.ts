@@ -11,7 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ServiceComponent } from './service/service.component';
 import { ContactComponent } from './contact/contact.component';
-import { BookComponent } from './book/book.component';
+// import { BookComponent } from './book/book.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,7 @@ import { BookComponent } from './book/book.component';
     AboutComponent,
     ServiceComponent,
     ContactComponent,
-    BookComponent
+    // BookComponent
   ],
   imports: [
     BrowserModule,
