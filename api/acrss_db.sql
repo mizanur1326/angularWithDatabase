@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 21, 2023 at 08:12 AM
+-- Generation Time: Nov 22, 2023 at 08:10 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 7.4.33
 
@@ -126,10 +126,9 @@ CREATE TABLE `service_list` (
 --
 
 INSERT INTO `service_list` (`id`, `name`, `description`, `price`, `image_path`, `status`, `created_at`, `updated_at`) VALUES
-(1, 'AC Split Type Repair', '&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mi vitae nisl vehicula tempus. Aliquam nec tempor dui, id condimentum est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec venenatis nulla vel tellus porta, ut pellentesque elit semper.&lt;/p&gt;', 3800.00, 'team-1.jgp', 1, '2023-04-28 09:30:20', '0000-00-00 00:00:00'),
-(2, 'AC Window Type Repair', '&lt;p&gt;Sed non lacus quis sapien cursus volutpat. Nam dignissim nulla pretium, sodales nunc vitae, iaculis nulla. Curabitur erat sapien, mattis vitae consectetur imperdiet, ultrices sed magna. Phasellus vel porttitor nisi. Maecenas ac ipsum ligula. Aliquam erat volutpat. Fusce eget urna nisl&lt;/p&gt;', 2500.00, 'uploads/services/2.png?v=1682646346', 1, '2023-04-28 09:45:46', '0000-00-00 00:00:00'),
-(3, 'Central AC Repair', '&lt;p&gt;Donec mi mi, ullamcorper posuere leo et, faucibus ultrices sapien. Donec rhoncus sem lacinia, vestibulum metus a, blandit purus. Integer massa felis, pretium at nulla ut, tempor tempus mi. Pellentesque tincidunt sem sit amet maximus ultrices. Aliquam fringilla vitae dui vitae dapibus.&lt;/p&gt;', 4500.00, 'uploads/services/3.png?v=1682646441', 1, '2023-04-28 09:47:21', '0000-00-00 00:00:00'),
-(5, 'Unknown', '&lt;p&gt;Unknown Services&lt;/p&gt;', 1000.00, 'uploads/services/5.png?v=1700537815', 1, '2023-11-20 13:10:59', '0000-00-00 00:00:00');
+(1, 'AC Split Type Repair', '&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec mi vitae nisl vehicula tempus. Aliquam nec tempor dui, id condimentum est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec venenatis nulla vel tellus porta, ut pellentesque elit semper.&lt;/p&gt;', 3800.00, 'uploads/services/service-1.jpg', 1, '2023-04-28 09:30:20', '0000-00-00 00:00:00'),
+(2, 'AC Window Type Repair', '&lt;p&gt;Sed non lacus quis sapien cursus volutpat. Nam dignissim nulla pretium, sodales nunc vitae, iaculis nulla. Curabitur erat sapien, mattis vitae consectetur imperdiet, ultrices sed magna. Phasellus vel porttitor nisi. Maecenas ac ipsum ligula. Aliquam erat volutpat. Fusce eget urna nisl&lt;/p&gt;', 2500.00, 'uploads/services/service-2.jpg', 1, '2023-04-28 09:45:46', '0000-00-00 00:00:00'),
+(3, 'Central AC Repair', '&lt;p&gt;Donec mi mi, ullamcorper posuere leo et, faucibus ultrices sapien. Donec rhoncus sem lacinia, vestibulum metus a, blandit purus. Integer massa felis, pretium at nulla ut, tempor tempus mi. Pellentesque tincidunt sem sit amet maximus ultrices. Aliquam fringilla vitae dui vitae dapibus.&lt;/p&gt;', 4500.00, 'uploads/services/service-3.jpg', 1, '2023-04-28 09:47:21', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
